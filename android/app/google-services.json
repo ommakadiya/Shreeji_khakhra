@@ -1,51 +1,26 @@
 {
   "project_info": {
-    "project_number": "889955445816",
-    "project_id": "shreejikhakhra-87245",
-    "storage_bucket": "shreejikhakhra-87245.firebasestorage.app"
+    "project_number": "370862221576",
+    "project_id": "shreeji-khakhra",
+    "storage_bucket": "shreeji-khakhra.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:889955445816:android:d58e2a0acaa6ed09454acd",
+        "mobilesdk_app_id": "1:370862221576:android:e9b1a012f89f132206a4bd",
         "android_client_info": {
           "package_name": "com.example.shreejikhakhra"
         }
-      }, 
-      "oauth_client": [
-        {
-          "client_id": "889955445816-77cd4sm46vvdi0r7a380gtbequrse7v2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.shreejikhakhra",
-            "certificate_hash": "8182c4e3af097745aeb2296e5edb1aad57d2650f"
-          }
-        },
-        {
-          "client_id": "889955445816-etkulns2ucbg48865valigkt8e7aeppr.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      },
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBqcOjyXblydpzK0NpM3X9R7Rhhsn8axQk"
+          "current_key": "AIzaSyDyAnDNLazqgw3W6rl64YAIdBqmzmdPdP8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "889955445816-etkulns2ucbg48865valigkt8e7aeppr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "889955445816-shc1e78kdnklptrknfbsicd5f8psv8ja.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.shreejikhakhra"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

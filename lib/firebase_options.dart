@@ -23,46 +23,46 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
-        newMethod();
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
-        newMethod();
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      case TargetPlatform.linux:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for linux - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       default:
-        newMethod();
+        throw UnsupportedError(
+          'DefaultFirebaseOptions are not supported for this platform.',
+        );
     }
   }
 
-  static Never newMethod() {
-    return throw UnsupportedError(
-      'DefaultFirebaseOptions are not supported for this platform.',
-    );
-  }
-
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBGabRbPizq7naS5513b4Hoo7ynME8sa88',
-    appId: '1:889955445816:web:7b9ee3bcf059a8f3454acd',
-    messagingSenderId: '889955445816',
-    projectId: 'shreejikhakhra-87245',
-    authDomain: 'shreejikhakhra-87245.firebaseapp.com',
-    storageBucket: 'shreejikhakhra-87245.firebasestorage.app',
-    measurementId: 'G-FZ7PK2VBXJ',
+    apiKey: 'AIzaSyD4LSUZKqe9WVP0wv5ryGxq7m7f7iIuU6c',
+    appId: '1:370862221576:web:13ef61dc4471e75e06a4bd',
+    messagingSenderId: '370862221576',
+    projectId: 'shreeji-khakhra',
+    authDomain: 'shreeji-khakhra.firebaseapp.com',
+    storageBucket: 'shreeji-khakhra.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBqcOjyXblydpzK0NpM3X9R7Rhhsn8axQk',
-    appId: '1:889955445816:android:d58e2a0acaa6ed09454acd',
-    messagingSenderId: '889955445816',
-    projectId: 'shreejikhakhra-87245',
-    storageBucket: 'shreejikhakhra-87245.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBzbCxG3_hdzAgcgdYX-RPT9csuNnYFLwQ',
-    appId: '1:889955445816:ios:d08ca35c43d4e34f454acd',
-    messagingSenderId: '889955445816',
-    projectId: 'shreejikhakhra-87245',
-    storageBucket: 'shreejikhakhra-87245.firebasestorage.app',
-    iosBundleId: 'com.example.shreejikhakhra',
+    apiKey: 'AIzaSyDyAnDNLazqgw3W6rl64YAIdBqmzmdPdP8',
+    appId: '1:370862221576:android:e9b1a012f89f132206a4bd',
+    messagingSenderId: '370862221576',
+    projectId: 'shreeji-khakhra',
+    storageBucket: 'shreeji-khakhra.firebasestorage.app',
   );
 }
